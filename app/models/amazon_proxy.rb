@@ -2,8 +2,8 @@
 
 class AmazonProxy
   Amazon::Ecs.configure do |options|
-    options[:AWS_access_key_id] = 'AKIAIGB5OMJVLW7O5J5A'
-    options[:AWS_secret_key]    = 'fgWo7gjEw+4YKUyRbwiX/aWq1pBpYJ/PwfGyWf/w'
+    options[:AWS_access_key_id] = ''
+    options[:AWS_secret_key]    = ''
     options[:associate_tag]     = 'YOUR ASSOCIATE TAG'
   end
 
